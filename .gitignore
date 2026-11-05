@@ -1,0 +1,19 @@
+
+# Dependencies
+node_modules/
+
+# WhatsApp sessions and cache
+.wwebjs_auth/
+.wwebjs_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Temporary files
+temp/
+tmp/
